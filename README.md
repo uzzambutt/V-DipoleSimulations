@@ -1,49 +1,57 @@
 # V-DipoleSimulation Output
 ```
+E:\ResearchPaperSimulations>py sum1.py
+Using font: Times New Roman
+✓  fig1_azimuth  saved
+✓  fig2_elevation_vangle  saved
+✓  fig3_height_patterns  saved
+✓  fig4_elevation_overlay  saved
+✓  fig5_doppler  saved
+
 ======================================================================
-TABLE 4 — Fresnel Coefficient and Ground Factor  (εr=13, σ=0.006 S/m)
+TABLE 4 — Fresnel Coefficient and Ground Factor (Exact Constants)
 ======================================================================
  ε (deg)      |Γh|     ∠Γh (deg)    Ground Factor   Factor (dB)
 ----------------------------------------------------------------------
-       5°     0.951         179.9°          0.279        -5.5 dB
-      10°     0.905         179.8°          0.978        -0.1 dB
-      20°     0.821         179.6°          2.563         4.1 dB
-      30°     0.750         179.5°          3.064         4.9 dB
-      45°     0.667         179.3°          1.817         2.6 dB
-      60°     0.610         179.1°          0.574        -2.4 dB
-      90°     0.566         179.0°          0.188        -7.3 dB
+       5°   0.95101     179.90633°        0.27892    -5.54523 dB
+      10°   0.90479     179.81354°        0.97823    -0.09561 dB
+      20°   0.82133     179.63406°        2.56348     4.08830 dB
+      30°   0.75034     179.46793°        3.06362     4.86235 dB
+      45°   0.66708     179.25508°        1.81692     2.59336 dB
+      60°   0.61007     179.09662°        0.57386    -2.41193 dB
+      90°   0.56623     178.96692°        0.18834    -7.25051 dB
 
 ======================================================================
-TABLE 7 — Simulated Peak Gain  (α=30°, Average Ground, f=137.9 MHz)
+TABLE 7 — Simulated Peak Gain (Exact Constants)
 ======================================================================
   h (m)     h/λ   Peak (dBi)    Elev of Peak (°)   Zenith (dBi)
 ----------------------------------------------------------------------
-   0.50   0.230         +2.1                  90           +2.1
-   1.00   0.460         +2.2                  32           -6.5
-   1.09   0.501         +2.2                  29           -9.0
-   1.50   0.690         +2.3                  21           +1.5
-   2.00   0.920         +2.5                  15           -3.1
-   2.50   1.150         +2.6                  12           +0.4
+  0.500   0.230        +2.10                90.0          +2.10
+  1.000   0.460        +2.20                32.4          -6.44
+  1.087   0.500        +2.20                29.5          -9.01
+  1.500   0.690        +2.30                20.8          +1.48
+  2.000   0.920        +2.50                15.5          -3.08
+  2.500   1.150        +2.60                12.3          +0.46
 
 ======================================================================
-LINK BUDGET — Meteor M2-4 LRPT,  ε = 30°,  With LNA at feed-point
+LINK BUDGET — Meteor M2-4 LRPT, ε = 30° (Exact Constants)
 ======================================================================
-  Satellite TX EIRP (estimated)                     +4.0  dBW
-  Free-Space Path Loss (30°)                      -139.6  dB
-  Atmospheric + ionospheric loss                    -0.4  dB
-  V-Dipole gain at 30°                              +2.2  dBi
-  Polarisation mismatch (RHCP→lin.)                 -3.0  dB
-  Cable loss (3 m RG-58)                            -1.1  dB
-  Signal at LNA input                             -137.9  dBW
-  LNA gain                                         +20.0  dB
-  Signal at SDR input                             -117.9  dBW  = -87.9 dBm ◄
-  System noise floor (150 kHz BW)                 -121.4  dBm
-  SNR at SDR input                                 +33.6  dB ◄
-  Required Eb/N0 for OQPSK                         ~10.6  dB
-  Link margin                                      +23.0  dB  ← link closes ◄
+  Satellite TX EIRP (estimated)                    +4.00  dBW
+  Free-Space Path Loss (30°)                     -138.39  dB
+  Atmospheric + ionospheric loss                   -0.40  dB
+  V-Dipole gain at 30°                             +2.20  dBi
+  Polarisation mismatch (RHCP→lin.)                -3.00  dB
+  Cable loss (3 m RG-58)                           -1.10  dB
+  Signal at LNA input                            -136.69  dBW
+  LNA gain                                        +20.00  dB
+  Signal at SDR input                            -116.69  dBW  = -86.69 dBm ◄
+  System noise floor (150 kHz BW)                -121.44  dBm
+  SNR at SDR input                                +34.76  dB ◄
+  Required Eb/N0 for OQPSK                        ~10.60  dB
+  Link margin                                     +24.16  dB  ← link closes ◄
 
 All figures and tables saved to current directory.
-  lambda = 2.1740 m    k = 2.8901 rad/m
-  eps_c  = 13.00 - j0.7821
-  FSPL at 30° = 139.6 dB
-  ```
+  lambda = 2.17398 m    k = 2.89017 rad/m
+  eps_c  = 13.00000 - j0.78209
+  Exact FSPL at 30° = 138.38832 dB
+```
