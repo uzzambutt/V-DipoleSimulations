@@ -1,5 +1,8 @@
 """
-simulate_vdipole.py // ©️ Muhammad Uzzam Butt // 28/05/2026 - All Rights Reserved/
+simulate_vdipole.py // ©️ Muhammad Uzzam Butt // 28/05/2026 - All Rights Reserved.
+
+NOTE: THIS CODE WAS PRODUCED WITH THE ASSISTANCE OF AI.
+
 ====================
 Reproduces every figure and simulation table in:
   "Optimal Radiation Absorption Pattern of a V-Dipole Antenna
