@@ -1,4 +1,7 @@
 # V-DipoleSimulation Output
+
+**Research Paper**: https://zenodo.org/records/20424227 
+
 ```
 E:\ResearchPaperSimulations>py sum1.py
 Using font: Times New Roman
