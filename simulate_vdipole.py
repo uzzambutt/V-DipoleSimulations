@@ -9,7 +9,7 @@ Revised : 2026-05-29
 Licence : MIT
 
 AI disclosure: This script was generated with AI based on 
-human manual calculated results.
+manual human calculations to cross check and plot the results.
 
 
 Run:
